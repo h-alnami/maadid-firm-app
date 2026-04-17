@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MAADID FIRM</title>
+
+<style>
+body{
+margin:0;
+font-family:tahoma;
+background:#f6f1e7;
+display:flex;
+}
+
+.sidebar{
+width:220px;
+background:#0b3d2e;
+color:white;
+padding:20px;
+}
+
+.sidebar h2{
+color:#d4af37;
+}
+
+.main{
+flex:1;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+margin-bottom:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.done{background:green;color:white;padding:5px;border-radius:5px;}
+.pending{background:orange;color:white;padding:5px;border-radius:5px;}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+<h2>معاضد</h2>
+<p>القضايا</p>
+<p>العملاء</p>
+<p>التقارير</p>
+</div>
+
+<div class="main">
+
+<div class="card">
+قضية رقم 2023/100
+<span class="done">منتهية</span>
+</div>
+
+<div class="card">
+قضية رقم 2023/200
+<span class="pending">قيد العمل</span>
+</div>
+
+</div>
+
+</body>
+</html>
